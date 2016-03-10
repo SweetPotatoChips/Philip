@@ -20,6 +20,10 @@
                     <input type="text" class="form-control" placeholder="Start Location" >
                     <h4 style="padding-top:60px;">Enter your End location:</h4>
                     <input tpye="text class" class="form-control" placeholder="End Location">
+                    <p style="padding-top:35px;"></p>
+                    <div align="right">
+                        <button type="submit" class="btn btn-primary" align="right">Confirm</button>
+                    </div>
                 </div>
             </form>
     </body>
