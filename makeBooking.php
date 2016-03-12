@@ -16,9 +16,9 @@
             ?>
             <form name="starEndLoc">
                 <div class="input-group">
-                    <h4>Enter your start location:</h4>
+                    <p>Enter your start location:</p>
                     <input type="text" class="form-control" placeholder="Start Location" >
-                    <h4 style="padding-top:60px;">Enter your End location:</h4>
+                    <p style="padding-top:60px;">Enter your End location:</p>
                     <input tpye="text class" class="form-control" placeholder="End Location">
                     <p style="padding-top:35px;"></p>
                     <div align="right">
