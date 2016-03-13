@@ -1,10 +1,15 @@
-function compVar() {
-    var availible = [
-        "Warwick",
-        "Leamington",
-        "Cvoentry"
-    ];
-  $("#tags").autocomplete({
-      source: availible
-  });  
-};
+$(function() {
+	var availableTags = [
+	"Warwick",
+	"Leamington Spa",
+	"Whitnash",
+	"Leamington Hastings",
+	"Coventry",
+	"Birminham",
+	"London",
+	"Liverpool"
+	];
+$( "#tags" ).autocomplete({
+	source: availableTags
+	});
+});
