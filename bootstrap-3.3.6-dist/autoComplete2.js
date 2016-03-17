@@ -9,7 +9,7 @@ $(function() {
 	"London",
 	"Liverpool"
 	];
-$( "#tags1" ).autocomplete({
+$( "#tags2" ).autocomplete({
 	source: availableTags
 	});
 });

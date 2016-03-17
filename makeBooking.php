@@ -12,18 +12,19 @@
 			include "header.php"; 
 			?>
 			<body>
-			<form action="makeBooking.php" method="get">
+			<form action="submitBooking.php" method="get">
 				<script src="autoComplete.js"></script>
-				<div class="col-xs-3">
-					<input class="form-control" id="tags" placeholder="Start Location" autocomplete="off">
-				</div>
-				<script src="autoComplete.js"></script>
-				<div class="col-xs-3">
-					<input class="form-control" id="tags" placeholder="End Location" autocomplete="off">
-				</div>
-				<div class="col-xs-3">
+				<!--<div class="col-xs-3">-->
+					<input class="form-control" id="tags1" placeholder="Start Location" autocomplete="off">
+				<!--</div>-->
+				<script src="autoComplete2.js"></script>
+				<!--<div class="col-xs-3">-->
+				<br>
+					<input class="form-control" id="tags2" placeholder="End Location" autocomplete="off">
+				<!--</div>-->
+				<!--<div class="col-xs-3">--><br>	
 					<button class="btn btn-primary" type="submit">Submit</button>
-				</div>
+				<!--</div>-->
 			</form>
 	</body>
 </html> 
