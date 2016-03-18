@@ -10,14 +10,6 @@
 				include "includes\bootstrap.php";
 				include "includes\header.php"; 
 			?>
-			<br>
-			<script scr="inputDest.js"></script>
-
-			<form action="index.php" method="get">
-				<input type="text" id="inputDest"></input>
-				<input type="submit">
-			</form>
-
 		</div>
 	</body>
 </html>
