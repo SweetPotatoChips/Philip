@@ -15,6 +15,11 @@ function inputCheck() {
 			var value2 = "true";
 		}
 	}
+	if (inputStart == inputEnd)
+	{
+		document.getElementById("error").innerHTML = '<div class="alert alert-danger" style="display: inline-block;margin-left: 13px;"> You can start and end in the same location.</div>'
+		return false;
+	}
 	if (value1 == "false" || value2 == "false")
 	{	
 		document.getElementById("error").innerHTML = '<div class="alert alert-danger" style="display: inline-block;margin-left: 13px;"> Invalid destination try again.</div>'

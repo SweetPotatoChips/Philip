@@ -12,7 +12,10 @@
 			?>
 
 			<body>
-			<h4>Please enter your desired start and end locations below</h4>
+			<div class="alert alert-info" style="display: inline-block;margin-left: 13px;">
+				Please enter your desired start and end locations below
+			</div>
+			
 			<br>
 
 			<script src="javascript\inputCheck.js"></script>
@@ -37,9 +40,6 @@
 			<br><br><br>
 			
 			<strong><p id="error"></p></strong>
-
-			<p id="test1"></p>
-			<p id="test2"></p>
 
 			</div>
 	</body>
