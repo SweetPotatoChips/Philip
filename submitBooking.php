@@ -7,6 +7,7 @@
 	echo $startData;
 	echo "<br>";
 	echo $endData;
+	echo "<br>";
 
 	//server connect
 	$connect = new MongoClient("mongolon1.sbarratt.uk");
