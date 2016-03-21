@@ -18,12 +18,12 @@ function inputCheck() {
 	}
 	if (inputStart == inputEnd)//if the user has entered the same start and end locations
 	{
-		document.getElementById("error").innerHTML = '<div class="alert alert-danger" style="display: inline-block;margin-left: 13px;"> You can start and end in the same location.</div>'//returns an error message saying the user cant enter the same start and end value
+		document.getElementById("error").innerHTML = '<div class="alert alert-danger" style="display: inline-block;"> You can start and end in the same location.</div>'//returns an error message saying the user cant enter the same start and end value
 		return false;//returns false to stop the form being submitted to the database
 	}
 	if (value1 == false || value2 == false) //if the start or end location has not been found in the array it will do the following
 	{	
-		document.getElementById("error").innerHTML = '<div class="alert alert-danger" style="display: inline-block;margin-left: 13px;"> Invalid location try again.</div>'//returns an error message saying the user has not entered a valid location
+		document.getElementById("error").innerHTML = '<div class="alert alert-danger" style="display: inline-block;"> Invalid location try again.</div>'//returns an error message saying the user has not entered a valid location
 		return false;//returns false so the form is not submitted to the database
 	}
 	else//if no problems are found with the data the user has entered it does the following
