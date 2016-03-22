@@ -2,8 +2,8 @@
 function inputCheck() {
 	var inputStart = document.forms['myForm']['startLoc'].value;//gets the users start locations
 	var inputEnd = document.forms['myForm']['endLoc'].value;//gets the users end locations
-	var inputDep = document.forms['myForm']['startdate'].value;
-	var inputRet = document.forms['myForm']['enddate'].value;
+	var inputDep = document.forms['myForm']['startdate'].value;//gets the users departure date
+	var inputRet = document.forms['myForm']['enddate'].value;//gets the users retrun date
 	var cities = ["Warwick","Leamington Spa","London","Birmingham","Leeds","Glasgow","Sheffield","Bradford","Edinburgh","Liverpool","Manchester","Bristol","Wakefield","Cardiff","Coventry","Nottingham","Leicester","Sunderland","Belfast","Newcastle upon Tyne","Brighton","Hull","Plymouth","Stoke-on-Trent","Wolverhampton","Derby","Swansea","Southampton","Salford","Aberdeen","Westminster","Portsmouth","York","Peterborough","Dundee","Lancaster","Oxford","Newport","Preston","St Albans","Norwich","Chester","Cambridge","Salisbury","Exeter","Gloucester","Lisburn","Chichester","Winchester","Londonderry","Carlisle","Worcester","Bath","Durham","Lincoln","Hereford","Armagh","Inverness","Stirling","Canterbury","Lichfield","Newry","Ripon","Bangor","Truro","Ely","Wells","St Davids"]; //this is the array of valid locations 
 	var value1 = false; //sets the default value for the start location check to false
 	var value2 = false; //sets the default value for the end location check to false

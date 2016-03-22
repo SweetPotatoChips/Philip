@@ -6,13 +6,15 @@
 	$endDate = $_POST["enddate"];//gets the return date
 
 	echo "Inserting the following data to booking collections in TOB database: <br>";
-	echo $startLoc;
+	echo "Name - ",$acountName;
 	echo "<br>";
-	echo $endLoc;
+	echo "Start location - ",$startLoc;
 	echo "<br>";
-	echo $startDate;
+	echo "End locations - ",$endLoc;
 	echo "<br>";
-	echo $endDate;
+	echo "Departure date - ",$startDate;
+	echo "<br>";
+	echo "Return date - ",$endDate;
 	echo "<br>";
 
 	//server connect
