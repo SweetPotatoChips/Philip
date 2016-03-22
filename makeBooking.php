@@ -32,6 +32,7 @@
 			<script src="javascript\inputCheck.js"></script> <!-- get the js script to make sure the user has entered a valid entry -->
 			<script src="javascript\autoComplete.js"></script><!-- gets the js script to get the auto comlete drop downs on the textboxs -->
 			<script src="javascript\date.js"></script><!-- gets the js for the date select popouts -->
+			<script src="javascript\alertTimeout.js"></script><!-- makes the error alert messages timeout -->
 
 			<form  
 				name="myForm" 
@@ -48,7 +49,7 @@
 							id="tags1" 
 							placeholder="Start Location" 
 							autocomplete="off"  
-							required
+							
 						><!-- text box for start location -->
 					</div>
 
@@ -60,7 +61,8 @@
 							placeholder="Depart DD/MM/YYYY " 
 							type="text" 
 							readonly 
-							required 
+							 
+							style="background-color: white;"
 						/><!-- input for the departure date-->
 					</div>
 				</div>
@@ -75,7 +77,7 @@
 							id="tags2" 
 							placeholder="End Location" 
 							autocomplete="off" 
-							required
+							
 						><!-- text box for end location -->
 					</div>
 
@@ -87,7 +89,8 @@
 							placeholder="Return DD/MM/YYYY " 
 							type="text" 
 							readonly 
-							required
+							
+							style="background-color: white;" 
 						/><!-- input for return date -->
 					</div>
 
@@ -105,13 +108,24 @@
 						</button><!-- submit button for the form -->
 					</div>
 
-				</div>
-				
 			</form>
 			
+			<div class="row" style="margin-left: 0px">
+				<div>
+					<strong>
+						<p id="error">	
+						</p>
+					</strong><!-- if the inputCheck detects invalid data it will return the error here -->	
+				</div>
+		
+			</div>
 			<strong>
-				<p id="error">	
-				</p>
+				<p id="startError"></p>
+				<p id="endError"></p>
+				<p id="depError"></p>
+				<p id="retError"></p>
+				<p id="dupError"></p>
+				<p id="invalidError"></p>
 			</strong><!-- if the inputCheck detects invalid data it will return the error here -->
 
 	</body>
