@@ -112,21 +112,21 @@
 			
 			<div class="row" style="margin-left: 0px">
 				<div>
-					<strong>
+					<strong><!-- if the inputCheck detects invalid data it will return the error here -->	
 						<p id="error">	
 						</p>
-					</strong><!-- if the inputCheck detects invalid data it will return the error here -->	
+					</strong>
 				</div>
 		
 			</div>
-			<strong>
+			<strong><!-- if the inputCheck detects invalid data it will return the error/errors here -->
 				<p id="startError"></p>
 				<p id="endError"></p>
 				<p id="depError"></p>
 				<p id="retError"></p>
 				<p id="dupError"></p>
 				<p id="invalidError"></p>
-			</strong><!-- if the inputCheck detects invalid data it will return the error here -->
+			</strong>
 
 	</body>
 
