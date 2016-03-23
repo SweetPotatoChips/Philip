@@ -44,7 +44,7 @@ function inputCheck() {
 	}
 	if (inputStart == inputEnd)//if the user has entered the same start and end locations
 	{
-		document.getElementById("dupError").innerHTML = '<div class="alert alert-danger" id="alertMessage5" style="display: inline-block;"> You can start and end in the same location.</div><br>';//returns an error message saying the user cant enter the same start and end value
+		document.getElementById("dupError").innerHTML = '<div class="alert alert-danger" id="alertMessage5" style="display: inline-block;"> You can not start and end in the same location.</div><br>';//returns an error message saying the user cant enter the same start and end value
 		return false;//returns false to stop the form being submitted to the database
 	}
 	if (value1 == false || value2 == false) //if the start or end location has not been found in the array it will do the following
